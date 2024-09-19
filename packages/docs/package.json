@@ -14,9 +14,10 @@
   "description": "",
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
     "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
+    "polished": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
