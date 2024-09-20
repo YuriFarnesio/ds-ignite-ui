@@ -1,5 +1,11 @@
 # @yf-ds-ignite-ui/react
 
+## 1.3.0
+
+### Minor Changes
+
+- Add tooltip component
+
 ## 1.2.0
 
 ### Minor Changes
