@@ -19,6 +19,7 @@
     "@ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.1.7",
     "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-checkbox": "^1.1.1",
     "@stitches/react": "^1.2.8",
     "typescript": "^5.6.2"
   },
