@@ -12,7 +12,7 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Text size="sm">Email address</Text>
+          <Text size="sm">Name</Text>
           {Story()}
         </Box>
       )
@@ -29,11 +29,13 @@ export const Primary: StoryObj<TextInputProps> = {
 export const Disabled: StoryObj<TextInputProps> = {
   args: {
     disabled: true,
+    placeholder: 'Type your name',
   },
 }
 
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
 }
