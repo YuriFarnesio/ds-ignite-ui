@@ -17,6 +17,7 @@ export const Button = styled('button', {
   cursor: 'pointer',
   gap: '$2',
   padding: '0 $4',
+  transition: 'all 200ms ease-out',
 
   svg: {
     width: '$4',

@@ -8,6 +8,7 @@ export const TextInputContainer = styled('div', {
   borderRadius: '$sm',
   boxSizing: 'border-box',
   padding: '$3 $4',
+  transition: 'all 200ms ease-out',
 
   '&:has(input:focus)': {
     borderColor: '$ignite300',
