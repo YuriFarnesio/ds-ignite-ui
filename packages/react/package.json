@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/react",
+  "name": "@yf-ds-ignite-ui/react",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -14,9 +14,9 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@yf-ds-ignite-ui/eslint-config": "*",
+    "@yf-ds-ignite-ui/tokens": "*",
+    "@yf-ds-ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.1.7",
     "@radix-ui/react-avatar": "^1.1.0",
     "@radix-ui/react-checkbox": "^1.1.1",

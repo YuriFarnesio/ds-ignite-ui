@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@yf-ds-ignite-ui/docs",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -14,10 +14,10 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@yf-ds-ignite-ui/eslint-config": "*",
+    "@yf-ds-ignite-ui/react": "*",
+    "@yf-ds-ignite-ui/tokens": "*",
+    "@yf-ds-ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.1.7",
     "polished": "^4.3.1",
     "react": "^18.3.1",

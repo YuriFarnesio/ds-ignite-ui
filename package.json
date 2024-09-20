@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/global",
+  "name": "@yf-ds-ignite-ui/global",
   "private": true,
   "workspaces": [
     "packages/*"

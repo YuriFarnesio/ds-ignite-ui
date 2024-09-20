@@ -1,3 +1,4 @@
+import { createStitches, defaultThemeMap } from '@stitches/react'
 import {
   colors,
   fonts,
@@ -6,8 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignite-ui/tokens'
-import { createStitches, defaultThemeMap } from '@stitches/react'
+} from '@yf-ds-ignite-ui/tokens'
 
 export const {
   styled,
