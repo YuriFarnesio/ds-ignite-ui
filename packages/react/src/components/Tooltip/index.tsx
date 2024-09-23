@@ -1,7 +1,6 @@
-import { Plus } from '@phosphor-icons/react'
 import * as TooltipRadix from '@radix-ui/react-tooltip'
-import { ComponentProps } from 'react'
-import { TooltipArrow, TooltipContainer, TooltipExampleButton } from './styles'
+import { ComponentProps, type ReactNode } from 'react'
+import { TooltipArrow, TooltipContainer } from './styles'
 
 export function TooltipProvider({
   children,
@@ -10,16 +9,25 @@ export function TooltipProvider({
   return <TooltipRadix.Provider {...props}>{children}</TooltipRadix.Provider>
 }
 
-export interface TooltipProps extends ComponentProps<typeof TooltipContainer> {}
+export function TooltipTrigger({
+  children,
+  ...props
+}: TooltipRadix.TooltipTriggerProps) {
+  return (
+    <TooltipRadix.Trigger asChild {...props}>
+      {children}
+    </TooltipRadix.Trigger>
+  )
+}
 
-export function Tooltip({ children, ...props }: TooltipProps) {
+export interface TooltipProps extends ComponentProps<typeof TooltipContainer> {
+  trigger: ReactNode
+}
+
+export function Tooltip({ children, trigger, ...props }: TooltipProps) {
   return (
     <TooltipRadix.Root>
-      <TooltipRadix.Trigger asChild>
-        <TooltipExampleButton>
-          <Plus />
-        </TooltipExampleButton>
-      </TooltipRadix.Trigger>
+      {trigger}
 
       <TooltipRadix.Portal>
         <TooltipContainer {...props}>
