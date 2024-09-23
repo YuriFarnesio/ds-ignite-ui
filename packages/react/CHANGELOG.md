@@ -1,5 +1,11 @@
 # @yf-ds-ignite-ui/react
 
+## 2.0.0
+
+### Major Changes
+
+- Create tooltip and toast components
+
 ## 1.3.0
 
 ### Minor Changes

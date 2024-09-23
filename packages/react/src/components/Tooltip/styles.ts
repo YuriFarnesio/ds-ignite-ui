@@ -55,7 +55,7 @@ export const TooltipContainer = styled(Tooltip.Content, {
   borderRadius: '$xs',
   userSelect: 'none',
   padding: '$3 $4',
-  animationDuration: '400ms',
+  animationDuration: '200ms',
   animationTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)',
   willChange: 'transform, opacity',
 
