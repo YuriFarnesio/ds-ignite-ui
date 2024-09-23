@@ -1,0 +1,6 @@
+import{j as e}from"./jsx-runtime-Nms4Y4qS.js";import{c as d,d as u}from"./index-CbjiIab_.js";import{r as g}from"./index-BwDkhjyp.js";import"./index-B8XB3FuZ.js";import"./_commonjsHelpers-BosuxZz1.js";import"./index-Bs3w2CXc.js";const f=m=>{const[l,r]=g.useState(!1);return e.jsxs(e.Fragment,{children:[e.jsx(d,{onClick:()=>r(!0),children:"Agendar"}),e.jsx(u,{open:l,onOpenChange:r,...m})]})},z={title:"Data display/Toast",component:f,args:{title:"Agendamento realizado",eventDate:new Date},argTypes:{open:{type:"boolean",control:{disable:!0}},onOpenChange:{type:"function",control:{disable:!0}},title:{type:"string"},eventDate:{control:{type:"date"}},actionText:{type:"string"},action:{type:"function",control:{disable:!0}}}},t={},o={args:{actionText:"Desfazer",action:()=>console.log("Desfazer")}};var a,s,n;t.parameters={...t.parameters,docs:{...(a=t.parameters)==null?void 0:a.docs,source:{originalSource:"{}",...(n=(s=t.parameters)==null?void 0:s.docs)==null?void 0:n.source}}};var c,i,p;o.parameters={...o.parameters,docs:{...(c=o.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    actionText: 'Desfazer',
+    action: () => console.log('Desfazer')
+  }
+}`,...(p=(i=o.parameters)==null?void 0:i.docs)==null?void 0:p.source}}};const b=["Primary","WithAction"];export{t as Primary,o as WithAction,b as __namedExportsOrder,z as default};
