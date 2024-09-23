@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Tooltip, TooltipProps } from '@yf-ds-ignite-ui/react'
+import { Tooltip, TooltipProps, TooltipProvider } from '@yf-ds-ignite-ui/react'
 
 export default {
   title: 'Data display/Tooltip',
@@ -8,8 +8,6 @@ export default {
     children: 'Exemplo de Tooltip',
     side: 'top',
     sideOffset: 4,
-    delayDuration: 700,
-    skipDelayDuration: 300,
   },
   argTypes: {
     side: {
@@ -18,14 +16,21 @@ export default {
         type: 'inline-radio',
       },
     },
-    delayDuration: {
-      control: {
-        type: 'number',
-      },
+  },
+  decorators: [
+    (Story) => {
+      return (
+        <TooltipProvider delayDuration={700} skipDelayDuration={300}>
+          {Story()}
+        </TooltipProvider>
+      )
     },
-    skipDelayDuration: {
-      control: {
-        type: 'number',
+  ],
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Para utilizar o componente de Tooltip é necessário que envolvê-lo com o TooltipProvider, que pode receber algumas propriedades, como descrito na [Documentação oficial do Radix](https://www.radix-ui.com/primitives/docs/components/tooltip). Sugerimos que seja utilizado apenas um TooltipProvider no projeto, para que ocorra a padronização entre todos os Tooltips.',
       },
     },
   },
